@@ -1,0 +1,15 @@
+num1=float(input("Enter first number:"))         #Used to store I/P to variable(num1).
+num2=float(input("Enter second number:"))        #Used to store I/P to variable(num2).
+op=input("Enter an operator(+.-,*,//,%):")       #Used to store I/P to variable(op).
+if(op=='+'):
+    print(num1+num2)                             # Here we use COMPARISION OPERATOR, ARITHMETIC OP.. , to perform a task on the entered values.
+elif(op=='-'):
+    print(num1-num2)
+elif(op=='*'):
+    print(num1*num2)
+elif(op=='//'):
+    print(num1//num2)
+elif(op=='%'):
+    print(num1%num2)
+else:
+    print("Please enter an valid operator to perform operation on entered values:")
