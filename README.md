@@ -29,13 +29,6 @@ It prints the result of the operation.
 If the user enters an invalid operator, it shows a message:
 "Please enter a valid operator to perform operation on entered values."
 
-📌 Python Code
-python
-Copy
-Edit
-num1 = float(input("Enter first number: "))  # Take first number as input
-num2 = float(input("Enter second number: "))  # Take second number as input
-op = input("Enter an operator(+,-,*,//,%): ")  # Take operator as input
 
 
 ✅ Skills Used
